@@ -19,9 +19,9 @@ alias sign='gpg --detach-sign --armor'
 # default ls is untouched, except coloring
 alias ls=' ls --color=auto'
 alias myls=' ls -C -F -h --color=always'
-alias l=" myls -l"
-alias ll=' myls -l'
-alias la=' myls -lA'
+#alias l=" myls -l"
+#alias ll=' myls -l'
+#alias la=' myls -lA'
 alias v=" clear; ll -gh"    # standard directory view
 alias vs=" v **/*(.)"         # show all files in all subdirs plain in a list
 
@@ -147,3 +147,10 @@ alias -s exe="open"
 alias -s tjp="tj3"
 alias -s asc="gpg"
 alias -s pem="openssl x509 -noout -text -in "
+
+# aliases
+alias help='python ~/Documents/Script/help/bin/help'
+alias lookfor='python ~/Documents/Script/help/bin/help -s'
+alias ssr='sh ~/Documents/Script/sssh/super-ssh.sh'
+alias scr='sh ~/Documents/Script/sssh/super-scp.sh'
+alias z='j'

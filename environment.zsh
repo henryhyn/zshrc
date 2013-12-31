@@ -15,6 +15,12 @@ mkdir -p $ZSH_CACHE
 export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/sbin:$PATH
+export PATH=$HOME/Documents/Tools:$PATH
+export PATH="/Applications/Maxima.app/Contents/Resources/maxima/bin":$PATH
 
 # https://github.com/mxcl/homebrew/issues/11182
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+export M2_HOME=/opt/apache-maven-3.1.1
+
+# [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
