@@ -166,8 +166,8 @@ translate() {
 }
 
 # cd to the root of the current vcs repository
-gr() {
-    # vcsroot=`echo $vcs_info_msg_0_ | cut -d "|" -f 5`
-    vcsroot=`/home/seebi/.vim/scripts/vcsroot.sh`
-    echo $vcsroot && cd $vcsroot
-}
+# gr() {
+#     # vcsroot=`echo $vcs_info_msg_0_ | cut -d "|" -f 5`
+#     vcsroot=`/home/seebi/.vim/scripts/vcsroot.sh`
+#     echo $vcsroot && cd $vcsroot
+# }

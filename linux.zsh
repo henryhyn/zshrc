@@ -19,7 +19,7 @@ fi
 alias up=" nmcli con up id"
 alias down=" nmcli con down id"
 
-LSB_DISTRIBUTOR=`lsb_release -i -s`
+#LSB_DISTRIBUTOR=`lsb_release -i -s`
 
 # debian and ubuntu specific aliases
 ## autocomplete-able apt-xxx aliases
