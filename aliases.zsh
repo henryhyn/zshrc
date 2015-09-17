@@ -149,8 +149,10 @@ alias -s asc="gpg"
 alias -s pem="openssl x509 -noout -text -in "
 
 # aliases
+alias es='python ~/Documents/Script/help/bin/excsql'
 alias help='python ~/Documents/Script/help/bin/help'
 alias lookfor='python ~/Documents/Script/help/bin/help -s'
 alias ssr='sh ~/Documents/Script/sssh/super-ssh.sh'
 alias scr='sh ~/Documents/Script/sssh/super-scp.sh'
-alias z='j'
+alias sencha='~/bin/Sencha/Cmd/5.1.3.61/sencha'
+alias updatelocale='ruby ~/Documents/Tools/D07-update_locales.rb'
