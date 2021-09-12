@@ -20,6 +20,7 @@ export PATH=$HOME/.local/sbin:$PATH
 export PATH=$HOME/Documents/Tools:$PATH
 export PATH="/Applications/Maxima.app/Contents/Resources/maxima/bin":$PATH
 export PATH="/opt/local/libexec/perl5.16/sitebin":$PATH
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 export PYTHON_HOME=/usr/local/Cellar/python3/3.5.1/bin
 export PATH=$PYTHON_HOME:$PATH
@@ -52,4 +53,6 @@ export RAILS_ENV=development
 export GIT_SSL_NO_VERIFY=1
 export NODE_PATH=/usr/local/lib/node_modules
 . /opt/z/z.sh
+export HOMEBREW_NO_AUTO_UPDATE=true
+export PATH=/usr/local/opt/ruby/bin:$PATH
 
